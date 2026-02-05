@@ -1,4 +1,4 @@
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzfjaWOpdzoAejEev_s8QE21rvmJnDUxJKMlGcytbHSJHRaIFEF39DGbdR_ChqkhsW6/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwhXi327MTxDFYODUeABwIqQp0bUmcJFFcQOGRYljjITxeGNiXciQ8h0pmPHkMMmrVt/exec";
 
 document.getElementById("bookingForm").addEventListener("submit", function (e) {
   e.preventDefault();
