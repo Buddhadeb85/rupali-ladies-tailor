@@ -81,16 +81,25 @@
   </div>
 
   <!-- BOOKING FORM -->
-  <div class="container">
-    <h2>Book Measurement / Appointment</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="tel" placeholder="Mobile Number" required>
-      <input type="date" required>
-      <textarea placeholder="Service details / measurement notes"></textarea>
-      <button type="submit">Submit Request</button>
-    </form>
-  </div>
+  <form id="bookingForm">
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="tel" name="phone" placeholder="Phone Number" required>
+  <input type="email" name="email" placeholder="Email (optional)">
+
+  <select name="service" required>
+    <option value="">Select Service</option>
+    <option>Blouse Stitching</option>
+    <option>Suit Stitching</option>
+    <option>Alteration</option>
+  </select>
+
+  <input type="date" name="date" required>
+  <input type="time" name="time" required>
+
+  <textarea name="message" placeholder="Additional message"></textarea>
+
+  <button type="submit">Book Appointment</button>
+  </form>
   
     <!-- CONTACT INFO -->
   <div class="container">
