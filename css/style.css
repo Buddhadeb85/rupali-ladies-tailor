@@ -24,7 +24,7 @@
     .hero {
       background:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url("friendly.jpg") center/cover no-repeat;
+        url("../images/friendly.jpg") center/cover no-repeat;
       color: white;
       padding: 80px 20px;
       text-align: center;
